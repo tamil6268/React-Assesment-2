@@ -31,7 +31,7 @@
 
 #container form div label input {
     border: 2px solid black;
-    background-color: transparent;
+    background-color: gray;
     width: 250px;
     height: 50px;
     border-radius: 30px;
@@ -39,16 +39,21 @@
     text-align: left;
     font-size: medium;
     letter-spacing: 2px;
-    background-color: skyblue;
+    background-color: lightblue;
 }
-
+#container form div label input :hover{
+    background-color:skyblue;
+}
 #container form button {
     width: 200px;
     height: 50px;
-    border: 2px collapse black;
+    border: 2px solid black;
     border-radius: 30px;
-    background-color: skyblue;
+    background-color: lightblue;
     margin-bottom: 50px;
+}
+#container form button:hover{
+    background-color:skyblue;
 }
 
 #StoragePlace {
@@ -78,7 +83,7 @@
     width: 500px;
     height: 70px;
     border-radius: 30px;
-    background-color: green;
+    background-color: pink;
     border: 2px solid black;
     display: flex;
     justify-content: center;
