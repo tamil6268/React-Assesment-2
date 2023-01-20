@@ -51,9 +51,10 @@
     border-radius: 30px;
     background-color: lightblue;
     margin-bottom: 50px;
+    font-size:18px;
 }
 #container form button:hover{
-    background-color:skyblue;
+    background-color:blue;
 }
 
 #StoragePlace {
